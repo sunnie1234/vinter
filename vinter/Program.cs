@@ -1,31 +1,40 @@
 ﻿
 Fighter hero = new Fighter();
 
-hero.name = "HERO";
-hero.sword = new Sword();
-hero.sword.name = "Dark sword";
 
-Fighter villain = new Fighter();
-villain.name = "VILLAIN";
-villain.sword = new Sword();
-villain.sword.name = "Bright sword";
+
+// hero.name = "HERO";
+// hero.sword = new Sword();
+// hero.sword.name = "Dark sword";
+// hero.shield = new Shield();
+// hero.shield.name = "Dark shield";
+
+// Fighter villain = new Fighter();
+// villain.name = "VILLAIN";
+// villain.sword = new Sword();
+// villain.sword.name = "Bright sword";
+// villain.shield = new Shield();
+// villain.shield.name = "Bright shield";
+
+
 
 
 Random generator = new Random();
 
 while (hero.HP > 0 && villain.HP > 0)
 {
-  Console.WriteLine("\n----- ===== NY RUNDA ===== -----");
-  Console.WriteLine($"{hero.name}: {hero.HP} || {villain.name}: {villain.HP}\n");
+  
+  
 
   hero.Attack(villain);
   villain.Attack(hero);
 
-  Console.WriteLine("Tryck på valfri knapp för att fortsätta.");
-  Console.ReadKey();
+ 
 }
 
-Console.WriteLine("\n----- ===== STRIDEN ÄR SLUT ===== -----");
+// Console.WriteLine($"{hero.name}: {hero.HP} || {villain.name}: {villain.HP}\n");
+
+/* Console.WriteLine("\n----- ===== STRIDEN ÄR SLUT ===== -----");
 
 if (hero.HP == 0 && villain.HP == 0)
 {
@@ -41,4 +50,4 @@ else
 }
 
 Console.WriteLine("Tryck på valfri knapp för att avsluta.");
-Console.ReadKey();
+Console.ReadKey(); */ 
