@@ -3,7 +3,6 @@ C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\bin\Debug\net6.
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\bin\Debug\net6.0\vinter.runtimeconfig.json
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\bin\Debug\net6.0\vinter.dll
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\bin\Debug\net6.0\vinter.pdb
-C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.0\vinter.csproj.AssemblyReference.cache
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.0\vinter.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.0\vinter.AssemblyInfoInputs.cache
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.0\vinter.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.0\vinter.pdb
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.0\vinter.genruntimeconfig.cache
 C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.0\ref\vinter.dll
+C:\Users\sunnie.pallante\Documents\Programmering 2\vinter\vinter\obj\Debug\net6.0\vinter.sourcelink.json

@@ -1,20 +1,25 @@
 public class Shield
 {
-    private Random generator;
-
     public bool Active = true;
-    
 
-     public Shield()
+
+    public Shield()
     {
-    generator = new Random();
+
     }
 
-     public int ShieldDamage()
+    public int ShieldDamage()
     {
-        
-            return generator.Next(10, 20);
-        
-    
-     }
+        if (Active == true)
+        {
+            // Console.WriteLine("Shield protected!");
+            return Random.Shared.Next(10, 15);
+        }
+        else
+        {
+            return 0;
+        }
+
+
+    }
 }

@@ -2,15 +2,14 @@
 public class Sword
 {
     public string name;
-    private Random generator;
 
     public Sword()
     {
-    generator = new Random();
+
     }
 
-     public int GetDamage()
+    public int GetDamage()
     {
-    return generator.Next(10, 20);
-     }
+        return Random.Shared.Next(10, 20);
+    }
 }
